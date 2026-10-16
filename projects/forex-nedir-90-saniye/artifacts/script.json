@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "title": "Forex Nedir? 90 Saniyede",
+  "total_duration_seconds": 90,
+  "voice_performance": {"language": "tr-TR", "tone": "sakin, samimi, anlaşılır", "pace": "orta"},
+  "sections": [
+    {"id": "s1_hook", "start_seconds": 0, "end_seconds": 12,
+     "text": "Tatile çıkmadan önce bin lirayı Euro'ya çevirdin mi? Tebrikler. Farkında olmadan, dünyanın en büyük piyasasında işlem yaptın: Forex."},
+    {"id": "s2_what", "start_seconds": 12, "end_seconds": 30,
+     "text": "Forex, yani döviz piyasası, paraların birbirine karşı alınıp satıldığı yerdir. Bir binası yoktur; bankalar, şirketler ve yatırımcılar internet üzerinden, haftanın beş günü, yirmi dört saat işlem yapar. Günlük hacmi yaklaşık dokuz buçuk trilyon dolardır."},
+    {"id": "s3_pair", "start_seconds": 30, "end_seconds": 50,
+     "text": "Forex'te paralar hep çift olarak işlem görür. Örneğin Euro Dolar paritesi bir virgül sıfır sekiz ise, bir Euro almak için bir virgül sıfır sekiz dolar ödersin. Euro'nun değer kazanacağını düşünen alır, değer kaybedeceğini düşünen satar."},
+    {"id": "s4_leverage", "start_seconds": 50, "end_seconds": 72,
+     "text": "Asıl dikkat edilmesi gereken şey kaldıraçtır. Kaldıraç, cebindeki paradan çok daha büyük bir işlem açmanı sağlar. Yüz liran varken bin liralık işlem açtığını düşün. Fiyat yüzde on lehine giderse paran ikiye katlanır; ama yüzde on aleyhine giderse paranın tamamını kaybedersin."},
+    {"id": "s5_close", "start_seconds": 72, "end_seconds": 90,
+     "text": "Bu yüzden forex'te kayıp riski çok yüksektir. Türkiye'de yalnızca SPK yetkili kurumlarla çalış, kaldıraç sınırlarını bil ve önce demo hesapla, gerçek para riske atmadan öğren. Unutma: Bu video yatırım tavsiyesi değildir."}
+  ],
+  "metadata": {"sources": ["https://www.bis.org/press/p250930.htm", "https://www.qnbinvest.com.tr/forex/duyuru/10022017-spk-kaldirac-degisikligi-tebligi-hakkinda"]}
+}
