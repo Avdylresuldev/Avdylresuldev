@@ -58,7 +58,7 @@ export const Close: React.FC<{ dur: number; labels: Labels["close"] }> = ({ dur,
             <div
               key={item}
               style={{
-                width: 1100,
+                width: 1300,
                 display: "flex",
                 alignItems: "center",
                 gap: 34,
@@ -89,7 +89,7 @@ export const Close: React.FC<{ dur: number; labels: Labels["close"] }> = ({ dur,
                   />
                 </svg>
               </div>
-              <div style={{ fontFamily: FONT_BODY, fontWeight: 700, fontSize: 60, color: C.ink }}>{item}</div>
+              <div style={{ fontFamily: FONT_BODY, fontWeight: 700, fontSize: 56, color: C.ink, whiteSpace: "nowrap" }}>{item}</div>
             </div>
           );
         })}

@@ -1,0 +1,29 @@
+{
+  "showCaptions": true,
+  "musicVolume": 0.12,
+  "sections": [
+    {"id": "s1_hook", "durationSec": 12, "captions": ["Syýahata gitmezden öň puluňy ýewro öwürdiňmi?", "Gutlaýaryn!", "Özüň bilmezden, dünýäniň iň uly bazarynda söwda etdiň: Foreks."]},
+    {"id": "s2_what", "durationSec": 18, "captions": ["Foreks, ýagny walýuta bazary,", "pullaryň biri-birine garşy satylyp alynýan ýeridir.", "Onuň binasy ýok; banklar, kompaniýalar we maýadarlar", "internet arkaly, hepdäniň bäş güni, gije-gündiz söwda edýärler.", "Onuň gündelik möçberi takmynan dokuz ýarym trillion dollara barabar."]},
+    {"id": "s3_pair", "durationSec": 20, "captions": ["Foreksde pullar elmydama jübüt bolup söwda edilýär.", "Mysal üçin, ýewro-dollar jübüti 1,08 bolsa,", "bir ýewro almak üçin bir dollar sekiz sent tölemeli bolýar.", "Ýewronyň gymmatlajakdygyny pikir edýän satyn alýar,", "arzanlajakdygyny pikir edýän satýar."]},
+    {"id": "s4_leverage", "durationSec": 22, "captions": ["Iň köp üns bermeli zat leweraždyr.", "Leweraž, jübüdiňdäki puldan has uly söwda açmaga mümkinçilik berýär.", "Ýüz manadyň bar wagtynda müň manatlyk söwda açýandygyňy göz öňüne getir.", "Baha on göterim seniň peýdaňa gitse, puluň iki esse köpeler;", "emma on göterim garşyňa gitse, ähli puluňy ýitirersiň."]},
+    {"id": "s5_close", "durationSec": 18, "captions": ["Şonuň üçin foreksde zyýan çekmek howpy örän ýokarydyr.", "Diňe resmi ygtyýarly kompaniýalar bilen işle,", "leweraž çäklerini bil", "we ilki demo hasap bilen, hakyky puluňy howp astyna salman öwren.", "Ýatdan çykarma: bu wideo maýa goýum maslahaty däl."]}
+  ],
+  "labels": {
+    "sectionNames": ["Giriş", "Foreks näme?", "Jübüt", "Leweraž", "Üns ber"],
+    "hook": {"noteFrom": "1 000 TMT", "noteTo": "€", "board": "WALÝUTA ÇALŞYGY", "title": "FOREKS", "subtitle": "Walýuta bazary"},
+    "what": {
+      "cities": ["Sidneý", "Tokio", "London", "Nýu-Ýork"],
+      "hours": "Hepdede 5 gün · 24 sagat",
+      "players": ["Banklar", "Kompaniýalar", "Maýadarlar"],
+      "volumeValue": 9.6, "volumeDecimalSep": ",", "volumeUnit": "trillion $",
+      "volumeLabel": "gündelik söwda möçberi", "source": "Çeşme: BIS Triennial Survey, 2025-nji ýylyň apreli"
+    },
+    "pair": {"base": "EUR", "quote": "USD", "rate": "1,08", "baseCoin": "1 €", "quoteCoin": "1,08 $",
+             "buy": "AL", "buyHint": "Ýewro gymmatlar diýseň", "sell": "SAT", "sellHint": "Ýewro arzanlar diýseň"},
+    "leverage": {"title": "LEWERAŽ", "own": "100 TMT", "position": "1 000 TMT", "ownLabel": "seniň puluň", "positionLabel": "açan söwdaň",
+                 "up": "+10%", "upResult": "200 TMT", "upLabel": "Puluň iki esse köpeler",
+                 "down": "−10%", "downResult": "0 TMT", "downLabel": "Ähli puluň gider"},
+    "close": {"warning": "Zyýan howpy örän ýokary", "checks": ["Diňe resmi ygtyýarly kompaniýalar", "Leweraž çäklerini bil", "Ilki demo hasap bilen öwren"],
+              "disclaimer": "Bu wideo maýa goýum maslahaty däl."}
+  }
+}

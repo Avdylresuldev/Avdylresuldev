@@ -19,7 +19,7 @@ const Block: React.FC<{ w: number; h: number; label: string; sub: string; bg: st
       color: C.ink,
     }}
   >
-    <div style={{ fontWeight: 900, fontSize: h > 200 ? 76 : 48, fontFeatureSettings: "'tnum'" }}>{label}</div>
+    <div style={{ fontWeight: 900, fontSize: Math.min(h > 200 ? 76 : 48, (w - 40) / (label.length * 0.62)), whiteSpace: "nowrap", fontFeatureSettings: "'tnum'" }}>{label}</div>
     <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: h > 200 ? 30 : 24, color: C.inkSoft }}>{sub}</div>
   </div>
 );
@@ -100,11 +100,11 @@ export const Leverage: React.FC<{ dur: number; labels: Labels["leverage"] }> = (
         />
         <div style={{ position: "absolute", left: 0, top: 316, width: 1200, height: 0, transform: `rotate(${angle}deg)` }}>
           <div style={{ position: "absolute", left: 0, top: 0, width: 1200, height: 22, background: C.ink, borderRadius: 11 }} />
-          <div style={{ position: "absolute", left: 950, top: -150, transform: `rotate(${-angle}deg)`, transformOrigin: "center bottom" }}>
-            <Block w={210} h={150} label={labels.own} sub={labels.ownLabel} bg={C.gainSoft} />
+          <div style={{ position: "absolute", left: 930, top: -150, transform: `rotate(${-angle}deg)`, transformOrigin: "center bottom" }}>
+            <Block w={250} h={150} label={labels.own} sub={labels.ownLabel} bg={C.gainSoft} />
           </div>
           <div style={{ position: "absolute", left: 10, top: -270, transform: `rotate(${-angle}deg)`, transformOrigin: "center bottom" }}>
-            <Block w={380} h={270} label={labels.position} sub={labels.positionLabel} bg={C.goldSoft} />
+            <Block w={420} h={270} label={labels.position} sub={labels.positionLabel} bg={C.goldSoft} />
           </div>
         </div>
       </div>
