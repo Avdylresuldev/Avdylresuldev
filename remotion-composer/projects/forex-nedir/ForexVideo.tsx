@@ -36,7 +36,7 @@ const Captions: React.FC<{ section: Section; dur: number }> = ({ section, dur })
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const start = (section.audioOffsetSec ?? 0.3) * fps;
-  const span = Math.max(1, dur - start - 0.5 * fps);
+  const span = Math.max(1, section.audioDurationSec ? section.audioDurationSec * fps : dur - start - 0.5 * fps);
   const total = section.captions.reduce((n, c) => n + c.length, 0) || 1;
   let acc = 0;
   const chunks = section.captions.map((text) => {

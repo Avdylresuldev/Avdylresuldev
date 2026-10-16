@@ -5,6 +5,8 @@ export type Section = {
   audio?: string;
   // Delay before the narration starts inside the section.
   audioOffsetSec?: number;
+  // Length of the narration, so captions spread over speech, not silence.
+  audioDurationSec?: number;
   // Spoken text, split into caption chunks timed by character length.
   captions: string[];
 };

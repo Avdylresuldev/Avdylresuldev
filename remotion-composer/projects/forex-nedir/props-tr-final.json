@@ -1,0 +1,143 @@
+{
+ "showCaptions": true,
+ "musicVolume": 0.14,
+ "sections": [
+  {
+   "id": "s1_hook",
+   "durationSec": 12.65,
+   "captions": [
+    "Tatile çıkmadan önce bin lirayı Euro'ya çevirdin mi?",
+    "Tebrikler.",
+    "Farkında olmadan, dünyanın en büyük piyasasında işlem yaptın: Forex."
+   ],
+   "audio": "tr/s1_hook.wav",
+   "audioOffsetSec": 0.5,
+   "audioDurationSec": 8.95
+  },
+  {
+   "id": "s2_what",
+   "durationSec": 19.0,
+   "captions": [
+    "Forex, yani döviz piyasası,",
+    "paraların birbirine karşı alınıp satıldığı yerdir.",
+    "Bir binası yoktur; bankalar, şirketler ve yatırımcılar",
+    "internet üzerinden, haftanın beş günü, yirmi dört saat işlem yapar.",
+    "Günlük hacmi yaklaşık dokuz buçuk trilyon dolardır."
+   ],
+   "audio": "tr/s2_what.wav",
+   "audioOffsetSec": 0.5,
+   "audioDurationSec": 16.3
+  },
+  {
+   "id": "s3_pair",
+   "durationSec": 16.91,
+   "captions": [
+    "Forex'te paralar hep çift olarak işlem görür.",
+    "Örneğin Euro Dolar paritesi 1,08 ise,",
+    "bir Euro almak için 1,08 dolar ödersin.",
+    "Euro'nun değer kazanacağını düşünen alır,",
+    "değer kaybedeceğini düşünen satar."
+   ],
+   "audio": "tr/s3_pair.wav",
+   "audioOffsetSec": 0.5,
+   "audioDurationSec": 14.01
+  },
+  {
+   "id": "s4_leverage",
+   "durationSec": 19.67,
+   "captions": [
+    "Asıl dikkat edilmesi gereken şey kaldıraçtır.",
+    "Kaldıraç, cebindeki paradan çok daha büyük bir işlem açmanı sağlar.",
+    "Yüz liran varken bin liralık işlem açtığını düşün.",
+    "Fiyat yüzde on lehine giderse paran ikiye katlanır;",
+    "ama yüzde on aleyhine giderse paranın tamamını kaybedersin."
+   ],
+   "audio": "tr/s4_leverage.wav",
+   "audioOffsetSec": 0.5,
+   "audioDurationSec": 16.77
+  },
+  {
+   "id": "s5_close",
+   "durationSec": 17.45,
+   "captions": [
+    "Bu yüzden forex'te kayıp riski çok yüksektir.",
+    "Türkiye'de yalnızca SPK yetkili kurumlarla çalış,",
+    "kaldıraç sınırlarını bil",
+    "ve önce demo hesapla, gerçek para riske atmadan öğren.",
+    "Unutma: Bu video yatırım tavsiyesi değildir."
+   ],
+   "audio": "tr/s5_close.wav",
+   "audioOffsetSec": 0.5,
+   "audioDurationSec": 13.95
+  }
+ ],
+ "labels": {
+  "sectionNames": [
+   "Giriş",
+   "Forex nedir?",
+   "Parite",
+   "Kaldıraç",
+   "Dikkat"
+  ],
+  "hook": {
+   "noteFrom": "1.000 ₺",
+   "noteTo": "€",
+   "board": "DÖVİZ BÜROSU",
+   "title": "FOREX",
+   "subtitle": "Döviz piyasası"
+  },
+  "what": {
+   "cities": [
+    "Sidney",
+    "Tokyo",
+    "Londra",
+    "New York"
+   ],
+   "hours": "Haftada 5 gün · 24 saat",
+   "players": [
+    "Bankalar",
+    "Şirketler",
+    "Yatırımcılar"
+   ],
+   "volumeValue": 9.6,
+   "volumeDecimalSep": ",",
+   "volumeUnit": "trilyon $",
+   "volumeLabel": "günlük işlem hacmi",
+   "source": "Kaynak: BIS Triennial Survey, Nisan 2025"
+  },
+  "pair": {
+   "base": "EUR",
+   "quote": "USD",
+   "rate": "1,08",
+   "baseCoin": "1 €",
+   "quoteCoin": "1,08 $",
+   "buy": "AL",
+   "buyHint": "Euro yükselir diyorsan",
+   "sell": "SAT",
+   "sellHint": "Euro düşer diyorsan"
+  },
+  "leverage": {
+   "title": "KALDIRAÇ",
+   "own": "100 ₺",
+   "position": "1.000 ₺",
+   "ownLabel": "senin paran",
+   "positionLabel": "açtığın işlem",
+   "up": "+%10",
+   "upResult": "200 ₺",
+   "upLabel": "Paran ikiye katlanır",
+   "down": "−%10",
+   "downResult": "0 ₺",
+   "downLabel": "Paranın tamamı gider"
+  },
+  "close": {
+   "warning": "Kayıp riski çok yüksek",
+   "checks": [
+    "Yalnızca SPK yetkili kurumlar",
+    "Kaldıraç sınırlarını bil",
+    "Önce demo hesapla öğren"
+   ],
+   "disclaimer": "Bu video yatırım tavsiyesi değildir."
+  }
+ },
+ "music": "music.wav"
+}
